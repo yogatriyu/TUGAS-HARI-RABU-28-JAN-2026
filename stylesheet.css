@@ -1,7 +1,21 @@
 .banner{
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4)),url(bg.jpg);
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("bg.jpg");
     background-size: cover;
-    background-color: cover;
     background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid#fff;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.background-service{
+    height: auto;
+    background: #000000;
 }
